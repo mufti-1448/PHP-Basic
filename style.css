@@ -1,0 +1,30 @@
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 244, 233);
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+table{
+    border: 1px black;
+    justify-content: center;
+    padding: 10px;
+    border-collapse: collapse;
+    width: 500px;
+}
+th{
+    padding: 10px;
+    background-color: lightgreen;
+}
+tr:nth-child(even){
+    background-color: lightgoldenrodyellow;
+}
