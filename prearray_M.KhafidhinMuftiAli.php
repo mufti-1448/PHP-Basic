@@ -56,6 +56,7 @@ foreach($car_merk as $a) {
 }
 
 echo "<br> Soal No 8<br>";
+//array multidimentional array yg di dlmnya ada array
 $mobil = [
     [
         "merk_mobil" => "Camry",
