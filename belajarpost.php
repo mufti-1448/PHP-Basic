@@ -50,14 +50,14 @@
     <h2>Perkalian Sederhana</h2>
     <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
         <label class="label" for="">Masukan Angka Pertama : </label><br>
-        <input type="text" name="angkaPertama"><br>
+        <input type="number" name="angkaPertama"><br>
         <label class="label" for="">Masukan Angka Kedua : </label><br>
-        <input type="text" name="angkaKedua"><br>
+        <input type="number" name="angkaKedua"><br>
         <input class="button" type="submit" name="kirim">
     </form>
 </body>
 </html>
-<?php
+<?php 
 
 
 if(isset($_POST['kirim'])){
