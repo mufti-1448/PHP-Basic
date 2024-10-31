@@ -18,26 +18,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Pesan default jika belum ada form yang dikirimkan
     $message = "Silakan masukkan informasi login Anda.";
 }
+
 ?>
 
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Masuk</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style-login.css">
 </head>
 <body>
-    <div class="login-container">
+<div class="login-container">
         <div class="login-left">
-            <img src="logo.webp" alt="Logo Laptop Spot" class="logo">
+            <img src="../foto/logo.webp" alt="Logo Laptop Spot" class="logo">
             <h1 class="logo-text">Laptop Spot</h1>
         </div>
         <div class="login-right">
             <h2>Masuk</h2>
-            <p>Buka dunia Anda</p>
+            <p>Open in the World</p>
             
             <!-- Tampilkan pesan dari PHP -->
             <p><?php echo $message; ?></p>
