@@ -54,45 +54,51 @@
                     ["name" => "Lenovo Legion 5 Pro", "description" => "AMD Ryzen 7, RTX 3060, 16GB RAM, 512GB SSD", "image" => "../foto/Lenovo Legion 5 Pro.webp", "price" => "Rp 18.500.000"],
                     ["name" => "Lenovo ThinkPad X1 Carbon", "description" => "Intel Core i7, 16GB RAM, 1TB SSD", "image" => "../foto/Lenovo ThinkPad X1 Carbon.jpg", "price" => "Rp 25.000.000"],
                     ["name" => "Lenovo IdeaPad Flex 5", "description" => "Intel Core i5, 8GB RAM, 512GB SSD", "image" => "../foto/Lenovo IdeaPad Flex 5.webp", "price" => "Rp 15.000.000"],
-                    ["name" => "Lenovo ThinkPad X1 Extreme", "description" => "Intel Core i9, 32GB RAM, 1TB SSD", "image" => "../foto/Lenovo ThinkPad X1 Extreme.jpg", "price" => "Rp 30.000.000"]
+                    ["name" => "Lenovo ThinkPad X1 Extreme", "description" => "Intel Core i9, 32GB RAM, 1TB SSD", "image" => "../foto/Lenovo ThinkPad X1 Extreme.jpg", "price" => "Rp 30.000.000"],
+                    ["name" => "Lenovo Legion Slim 7i", "description" => "Intel Core i7, RTX 2060, 16GB RAM, 1TB SSD", "image" => "../foto/Lenovo Legion Slim 7i.jpg", "price" => "Rp 23.000.000"]
                 ],
                 "HP" => [
                     ["name" => "HP Spectre x360", "description" => "Intel Core i7, 16GB RAM, 512GB SSD", "image" => "../foto/HP Spectre x360.jpg", "price" => "Rp 22.000.000"],
                     ["name" => "HP Omen 16", "description" => "Intel Core i7, RTX 3060, 16GB RAM", "image" => "../foto/HP Omen 16.webp", "price" => "Rp 21.000.000"],
                     ["name" => "HP Envy 13", "description" => "Intel Core i5, 8GB RAM, 256GB SSD", "image" => "../foto/HP Envy 13.jpg", "price" => "Rp 12.000.000"],
                     ["name" => "HP Pavilion 15", "description" => "Intel Core i5, 8GB RAM, 512GB SSD", "image" => "../foto/HP Pavilion 15.webp", "price" => "Rp 13.500.000"],
-                    ["name" => "HP Victus 16", "description" => "AMD Ryzen 5, GTX 1650, 8GB RAM", "image" => "../foto/HP Victus 16.jpg", "price" => "Rp 11.000.000"]
+                    ["name" => "HP Victus 16", "description" => "AMD Ryzen 5, GTX 1650, 8GB RAM", "image" => "../foto/HP Victus 16.jpg", "price" => "Rp 11.000.000"],
+                    ["name" => "HP EliteBook 840", "description" => "Intel Core i7, 16GB RAM, 512GB SSD", "image" => "../foto/HP EliteBook 840.jpg", "price" => "Rp 19.000.000"]
                 ],
                 "Dell" => [
                     ["name" => "Dell XPS 13", "description" => "Intel Core i7, 16GB RAM, 1TB SSD", "image" => "../foto/Dell XPS 13.avif", "price" => "Rp 28.000.000"],
                     ["name" => "Dell Alienware X17", "description" => "Intel Core i9, RTX 3080, 32GB RAM", "image" => "../foto/Dell Alienware X17.jpg", "price" => "Rp 50.000.000"],
                     ["name" => "Dell Inspiron 15 3000", "description" => "Intel Core i5, 8GB RAM, 256GB SSD", "image" => "../foto/Dell Inspiron 15 3000.jpg", "price" => "Rp 9.000.000"],
                     ["name" => "Dell Latitude 7420", "description" => "Intel Core i7, 16GB RAM, 512GB SSD", "image" => "../foto/Dell Latitude 7420.webp", "price" => "Rp 22.000.000"],
-                    ["name" => "Dell Precision 5560", "description" => "Intel Xeon, 32GB RAM, 1TB SSD", "image" => "../foto/Dell Precision 5560.jpg", "price" => "Rp 35.000.000"]
+                    ["name" => "Dell Precision 5560", "description" => "Intel Xeon, 32GB RAM, 1TB SSD", "image" => "../foto/Dell Precision 5560.jpg", "price" => "Rp 35.000.000"],
+                    ["name" => "Dell G15 5510", "description" => "Intel Core i5, GTX 1650, 8GB RAM", "image" => "../foto/Dell G15 5510.png", "price" => "Rp 14.500.000"]
                 ],
                 "Apple" => [
                     ["name" => "Apple MacBook Air M2", "description" => "M2 chip, 8GB RAM, 512GB SSD", "image" => "../foto/Apple MacBook Air M2.jpg", "price" => "Rp 17.000.000"],
                     ["name" => "Apple MacBook Pro 14", "description" => "M1 Pro chip, 16GB RAM, 1TB SSD", "image" => "../foto/Apple MacBook Pro 14.webp", "price" => "Rp 28.000.000"],
                     ["name" => "Apple MacBook Air M1", "description" => "M1 chip, 8GB RAM, 256GB SSD", "image" => "../foto/Apple MacBook Air M1.webp", "price" => "Rp 14.000.000"],
                     ["name" => "Apple MacBook Pro 13", "description" => "M2 chip, 16GB RAM, 512GB SSD", "image" => "../foto/Apple MacBook Pro 13.webp", "price" => "Rp 22.000.000"],
-                    ["name" => "Apple MacBook Pro 16", "description" => "M1 Max chip, 32GB RAM, 1TB SSD", "image" => "../foto/Apple MacBook Pro 16.jpg", "price" => "Rp 38.000.000"]
+                    ["name" => "Apple MacBook Pro 16", "description" => "M1 Max chip, 32GB RAM, 1TB SSD", "image" => "../foto/Apple MacBook Pro 16.jpg", "price" => "Rp 38.000.000"],
+                    ["name" => "Apple MacBook Pro 15", "description" => "Intel Core i9, 16GB RAM, 512GB SSD", "image" => "../foto/Apple MacBook Pro 15.jpg", "price" => "Rp 32.000.000"]
                 ],
                 "ASUS" => [
                     ["name" => "Asus ZenBook 14", "description" => "Intel Core i5, 16GB RAM, 512GB SSD", "image" => "../foto/Asus ZenBook 14.png", "price" => "Rp 18.000.000"],
                     ["name" => "Asus ROG Zephyrus G14", "description" => "AMD Ryzen 9, RTX 3060, 16GB RAM", "image" => "../foto/Asus ROG Zephyrus G14.png", "price" => "Rp 25.000.000"],
                     ["name" => "Asus TUF Dash F15", "description" => "Intel Core i7, RTX 3050 Ti, 16GB RAM", "image" => "../foto/Asus TUF Dash F15.png", "price" => "Rp 18.500.000"],
                     ["name" => "Asus VivoBook 15", "description" => "Intel Core i5, 8GB RAM, 256GB SSD", "image" => "../foto/Asus VivoBook 15.png", "price" => "Rp 11.000.000"],
-                    ["name" => "Asus ROG Strix Scar 15", "description" => "Intel Core i9, RTX 3080, 32GB RAM", "image" => "../foto/Asus ROG Strix Scar 15.jpg", "price" => "Rp 40.000.000"]
+                    ["name" => "Asus ROG Strix Scar 15", "description" => "Intel Core i9, RTX 3080, 32GB RAM", "image" => "../foto/Asus ROG Strix Scar 15.jpg", "price" => "Rp 40.000.000"],
+                    ["name" => "Asus ExpertBook B9", "description" => "Intel Core i7, 16GB RAM, 1TB SSD", "image" => "../foto/Asus ExpertBook B9(2).png", "price" => "Rp 27.000.000"]
                 ],
                 "Axioo" => [
                     ["name" => "Axioo MyBook 14F", "description" => "Intel Core i5, 8GB RAM, 512GB SSD", "image" => "../foto/Axioo MyBook 14F.jpg", "price" => "Rp 10.000.000"],
                     ["name" => "Axioo MyBook 13", "description" => "Intel Core i3, 4GB RAM, 256GB SSD", "image" => "../foto/Axioo MyBook 13.jpg", "price" => "Rp 7.500.000"],
                     ["name" => "Axioo MyBook 14+", "description" => "Intel Core i7, 16GB RAM, 1TB SSD", "image" => "../foto/Axioo MyBook 14+.jpg", "price" => "Rp 12.500.000"],
                     ["name" => "Axioo SlimBook 13", "description" => "Intel Celeron, 4GB RAM, 128GB SSD", "image" => "../foto/Axioo SlimBook 13.jpg", "price" => "Rp 5.500.000"],
-                    ["name" => "Axioo SlimBook 14", "description" => "Intel Core i3, 8GB RAM, 256GB SSD", "image" => "../foto/Axioo SlimBook 14.jpg", "price" => "Rp 7.000.000"]
+                    ["name" => "Axioo SlimBook 14", "description" => "Intel Core i3, 8GB RAM, 256GB SSD", "image" => "../foto/Axioo SlimBook 14.jpg", "price" => "Rp 7.000.000"],
+                    ["name" => "Axioo MyBook 14E", "description" => "Intel Core i5, 8GB RAM, 512GB SSD", "image" => "../foto/Axioo MyBook 14E.jpg", "price" => "Rp 9.500.000"]
                 ]
             ];
-
+            
            // Default brand yang dipilih jika tidak ada query string 'brand'
             $selectedBrand = $_GET['brand'] ?? 'Lenovo';
             $selectedLaptops = $products[$selectedBrand] ?? [];
