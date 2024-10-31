@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontak</title>
-    <link rel="stylesheet" href="kontak.css">
+    <link rel="stylesheet" href="kontakk.css">
 </head>
 <body>
 
@@ -41,7 +41,7 @@
             <a href="" class="send-link">
                 <div class="send-button">
                     <span class="send-text">KIRIM</span>
-                    <div class="icon-container">
+                    <div class="icon-containerr">
                         <img src="../foto/send-1.png" >
                     </div>
                 </div>
@@ -49,9 +49,8 @@
 
             <address>
                 Perumahan Buaran Indah,<br>
-                Jalan Pelita I No.322,<br>
+                Jalan Pelita I,<br>
                 Jenggot, Pekalongan Selatan,<br>
-                Jenggot, Kec. Pekalongan Sel.,<br>
                 Kota Pekalongan, Jawa Tengah 51133
             </address>
         </div>

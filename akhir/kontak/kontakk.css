@@ -4,6 +4,7 @@ body {
     padding: 0;
     height: 100vh;
 }
+
 .navbar {
     background-color: rgb(255, 255, 255);
     padding: 10px;
@@ -36,7 +37,6 @@ body {
 .anchor a:active {
     background-color: #444444;
 }
-
 
 
 .search-container {
@@ -119,7 +119,6 @@ body {
     height: 37px;
 }
 
-
 /* 
 bagian contact */
 
@@ -160,7 +159,7 @@ bagian contact */
     text-decoration: none;
 }
 
-.icon-container {
+.icon-containerr {
     background-color: white;
     border-radius: 50%;
     width: 40px;
@@ -171,7 +170,7 @@ bagian contact */
     margin-left: 25px;
 }
 
-.icon-container img {
+.icon-containerr img {
     width: 30px;
     height: 30px;
 }
