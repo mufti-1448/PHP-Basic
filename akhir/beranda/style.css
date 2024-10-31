@@ -1,0 +1,245 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.anchor{
+    margin-left: 50px;
+}
+
+.anchor a {
+    display: inline-block;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.anchor a:hover {
+    background-color: #737373 ;
+    transform: scale(1.1);
+    font-size: 18px;
+}
+
+.anchor a:active{
+    background-color: #737373;
+}
+
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 3px;
+    width: 250px;
+    margin-left: 200px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.search-button img {
+    width: 18px;
+    height: 18px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.login-link {
+    text-decoration: none;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000; 
+    padding: 5px 15px;
+    border-radius: 50px; 
+    color: white;
+    font-weight: bold;
+    width: 120px; 
+    cursor: pointer;
+    border: none;
+    margin-right: 80px;
+}
+
+.login-button:hover{
+    background-color: #6b6b6b;
+}
+
+.login-text {
+    font-size: 16px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.icon-container {
+    background-color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.icon-container img {
+    width: 37px;
+    height: 37px;
+}
+
+/* main */
+/* Style untuk div utama */
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Style untuk bagian teks */
+.text {
+    width: 35%;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+
+.text h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 80px;
+}
+
+/* Style untuk tombol */
+.left-bottom {
+    display: flex;
+}
+
+.text .link {
+    text-decoration: none;
+}
+
+.text .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #444444; 
+    padding: 5px 10px;
+    border-radius: 50px; 
+    color: white;
+    font-weight: bold;
+    width: 130px; 
+    cursor: pointer;
+    border: none;
+    margin-right: 80px;
+}
+
+.text .button:hover {
+    background-color: #6b6b6b;
+}
+
+.text .textt {
+    font-size: 10px;
+    margin-right: 5px;
+    text-decoration: none;
+
+}
+
+.text .icon-container img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Style untuk bagian gambar */
+.foto {
+    width: 45%;
+}
+
+.foto img {
+    max-width: 500px;
+    width: 400px;
+    height: 300px; 
+    object-fit: contain; 
+    background-color: white;
+    box-shadow: 0 0 15px black; 
+    border-radius: 8px; 
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+/* produk */
+.product-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow:  0 0 15px black;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+

@@ -1,0 +1,67 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+}
+
+.navbar a:hover {
+    background-color: gray;
+    scale: 1.08;
+}
+
+.navbar .active {
+    background-color: rgb(0, 0, 0);
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin-right: 5px;
+}
+
+.search-container button {
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.login-button {
+    background-color: #ff0000;
+    border-radius: 20px;
+}
+
+.login-button:hover {
+    background-color: #ff0000;
+}
+
+.content {
+    padding: 20px;
+}
