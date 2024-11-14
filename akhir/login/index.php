@@ -1,4 +1,11 @@
 <?php
+
+$users = [
+    "mufti0480@gmail.com" => "144808",
+    "zidanarq@gmail.com" => "123456789"
+];
+
+
 // Tangani pengiriman form
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Ambil input email dan password dari form
@@ -6,17 +13,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST['password'];
 
     // Contoh sederhana untuk validasi login (seharusnya terhubung ke database)
-    if ($email == "mufti0480@gmail.com" && $password == "144808") {
+    if (isset($users[$email]) && $users[$email] == $password) {
         // Jika login berhasil, arahkan ke halaman beranda
         header("Location: ../beranda/index.php");
         exit(); // Pastikan untuk menghentikan eksekusi lebih lanjut
     } else {
         // Jika login gagal, tampilkan pesan error
-        $message = "Email atau kata sandi salah!";
+        $message = "Email or password is incorrect!";
     }
 } else {
-    // Pesan default jika belum ada form yang dikirimkan
-    $message = "Silakan masukkan informasi login Anda.";
+    // Default message if no form has been submitted yet
+    $message = "Please enter your login information.";
+
 }
 
 ?>
@@ -26,35 +34,38 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
-    <link rel="stylesheet" href="style-login.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-<div class="login-container">
+    <div class="login-container">
         <div class="login-left">
-            <img src="../foto/logo.webp" alt="Logo Laptop Spot" class="logo">
+            <img src="../foto/logo.webp" alt="Laptop Spot Logo" class="logo">
             <h1 class="logo-text">Laptop Spot</h1>
         </div>
         <div class="login-right">
-            <h2>Masuk</h2>
+            <h2>Login</h2>
             <p>Open in the World</p>
             
-            <!-- Tampilkan pesan dari PHP -->
+            <!-- Display message from PHP -->
             <p><?php echo $message; ?></p>
             
             <form action="" method="post">
                 <div class="input-group">
                     <label for="email">Email*</label>
-                    <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
                 </div>
                 <div class="input-group">
-                    <label for="password">Kata Sandi*</label>
-                    <input type="password" id="password" name="password" placeholder="Masukkan kata sandi Anda" required>
+                    <label for="password">Password*</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
                 </div>
-                <button type="submit" class="btn btn-login">Masuk</button>
-                <button type="button" class="btn btn-create">Buat Akun</button>
+                <div>
+                <button type="submit" class="btn btn-login">Login</button>
+                <button type="button" class="btn btn-create">Create Account</button>
+                </div>
             </form>
         </div>
     </div>
 </body>
+
 </html>

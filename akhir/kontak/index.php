@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontak</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="kontakk.css">
 </head>
 <body>
@@ -12,9 +12,9 @@
     <div class="navbar">
         <div class="anchor">
             <a href="../beranda/index.php" class="<?= ($_POST['page'] ?? '') == 'home' ? 'active' : '' ?>">Home</a>
-            <a href="../produk/index.php" class="<?= ($_POST['page'] ?? '') == 'produk' ? 'active' : '' ?>">Produk</a>
-            <a href="../kontak/index.php" class="<?= ($_POST['page'] ?? '') == 'kontak' ? 'active' : '' ?>">Kontak</a>
-            <a href="../tentang-kami/index.php" class="<?= ($_POST['page'] ?? '') == 'tentang-kami' ? 'active' : '' ?>">Tentang Kami</a>
+            <a href="../produk/index.php" class="<?= ($_POST['page'] ?? '') == 'produk' ? 'active' : '' ?>">Products</a>
+            <a href="../kontak/index.php" class="<?= ($_POST['page'] ?? '') == 'kontak' ? 'active' : '' ?>">Contact</a>
+            <a href="../tentang-kami/index.php" class="<?= ($_POST['page'] ?? '') == 'tentang-kami' ? 'active' : '' ?>">About Us</a>
         </div>
         <div class="search-container">
             <form method="POST" action="index.php">
@@ -40,18 +40,18 @@
             <h1>CONTACT</h1>
             <a href="" class="send-link">
                 <div class="send-button">
-                    <span class="send-text">KIRIM</span>
+                    <span class="send-text">SEND</span>
                     <div class="icon-containerr">
-                        <img src="../foto/send-1.png" >
+                        <img src="../foto/send-1.png">
                     </div>
                 </div>
             </a>
 
             <address>
-                Perumahan Buaran Indah,<br>
-                Jalan Pelita I,<br>
+                Buaran Indah Housing,<br>
+                Pelita I Street,<br>
                 Jenggot, Pekalongan Selatan,<br>
-                Kota Pekalongan, Jawa Tengah 51133
+                Pekalongan City, Central Java 51133
             </address>
         </div>
         <div class="contact-right">
@@ -68,11 +68,13 @@
                 <label>Phone</label>
                 <input type="tel" name="phone" placeholder="Your Phone Number">
                 
-                <label>Pesan</label>
+                <label>Message</label>
                 <textarea name="message" placeholder="Your Message"></textarea>
             </form>
         </div>
     </div>
+
+
     <footer>
         <div class="footer-container">
             <div class="footer-left">
@@ -80,11 +82,11 @@
                 <p>Laptop Spot</p>
             </div>
             <div class="footer-column">
-                <h3>Informasi</h3>
+                <h3>Information</h3>
                 <ul>
-                    <li><a href="#">Tentang Kami</a></li>
-                    <li><a href="../toko-offline/index.php" class="<?= ($_POST['page'] ?? '') == 'toko-offline' ? 'active' : '' ?>">Toko Offline</a></li>
-                    <li><a href="#">Testimino</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="../toko-offline/index.php" class="<?= ($_POST['page'] ?? '') == 'toko-offline' ? 'active' : '' ?>">Offline Store</a></li>
+                    <li><a href="#">Testimonials</a></li>
                 </ul>
             </div>
             <div class="footer-column">
@@ -96,14 +98,14 @@
                 </ul>
             </div>
             <div class="footer-column">
-                <h3>Helpfull</h3>
+                <h3>Helpful</h3>
                 <ul>
                     <li><a href="#">Teams & Exchange</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="footer-right">
-                <h3>Kontak</h3>
+                <h3>Contact</h3>
                 <p>+62 85283983634</p>
                 <p>mufti0480@gmail.com</p>
                 <div class="social-icons">

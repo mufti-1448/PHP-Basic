@@ -50,6 +50,7 @@ body {
 }
 
 .search-input {
+    background-color: white;
     border: none;
     outline: none;
     flex-grow: 1;

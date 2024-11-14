@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beranda</title>
-    <link rel="stylesheet" href="style-beranda.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="beranda-style.css">
 </head>
 <body>
     <div class="navbar">
         <div class="anchor">
             <a href="../beranda/index.php" class="<?= ($_POST['page'] ?? '') == 'home' ? 'active' : '' ?>">Home</a>
-            <a href="../produk/index.php" class="<?= ($_POST['page'] ?? '') == 'produk' ? 'active' : '' ?>">Produk</a>
-            <a href="../kontak/index.php" class="<?= ($_POST['page'] ?? '') == 'kontak' ? 'active' : '' ?>">Kontak</a>
-            <a href="../tentang-kami/index.php" class="<?= ($_POST['page'] ?? '') == 'tentang-kami' ? 'active' : '' ?>">Tentang Kami</a>
+            <a href="../produk/index.php" class="<?= ($_POST['page'] ?? '') == 'produk' ? 'active' : '' ?>">Products</a>
+            <a href="../kontak/index.php" class="<?= ($_POST['page'] ?? '') == 'kontak' ? 'active' : '' ?>">Contact</a>
+            <a href="../tentang-kami/index.php" class="<?= ($_POST['page'] ?? '') == 'tentang-kami' ? 'active' : '' ?>">About Us</a>
         </div>
         <div class="search-container">
             <form method="POST" action="index.php">
@@ -34,9 +34,8 @@
 
     <div class="main">
         <div class="text">
-            <h1>Temukan Laptop<br>Impian Mu Di Sini</h1>
-            <p>Ayo temukan laptop impian mu di website kami dengan pilihan terbaik dan harga terjangkau. Jangan sampai ketinggalan, cek sekarang juga!</p>
-            
+            <h1>Find Your<br>Dream Laptop Here</h1>
+            <p>Come and find your dream laptop on our website with the best selections and affordable prices. Don't miss out, check it out now!</p>
             <div class="left-bottom">
                 <a href="../produk/index.php" class="link">
                     <div class="button">
@@ -57,7 +56,6 @@
                 </a>
             </div>
         </div>
-
         <div class="foto">
             <img src="../foto/laptop.webp" alt="Laptop Image">
         </div>
@@ -67,12 +65,15 @@
         <?php
         // Daftar produk
             $products = [
+                //Campuran
+                ["name" => "Lenovo ThinkPad X1 Extreme", "description" => "Intel Core i9, 32GB RAM, 1TB SSD", "image" => "../foto/Lenovo ThinkPad X1 Extreme.jpg", "price" => "Rp 30.000.000"],
+                ["name" => "Asus ROG Strix Scar 15", "description" => "Intel Core i9, RTX 3080, 32GB RAM", "image" => "../foto/Asus ROG Strix Scar 15.jpg", "price" => "Rp 40.000.000"],
+                ["name" => "Apple MacBook Pro 16", "description" => "M1 Max chip, 32GB RAM, 1TB SSD", "image" => "../foto/Apple MacBook Pro 16.jpg", "price" => "Rp 38.000.000"],
                 // Lenovo
                 ["name" => "Lenovo Yoga 9i", "description" => "Intel Core i7, 16GB RAM, 512GB SSD", "image" => "../foto/Lenovo Yoga 9i.jpg", "price" => "Rp 20.000.000"],
                 ["name" => "Lenovo Legion 5 Pro", "description" => "AMD Ryzen 7, RTX 3060, 16GB RAM, 512GB SSD", "image" => "../foto/Lenovo Legion 5 Pro.webp", "price" => "Rp 18.500.000"],
                 ["name" => "Lenovo ThinkPad X1 Carbon", "description" => "Intel Core i7, 16GB RAM, 1TB SSD", "image" => "../foto/Lenovo ThinkPad X1 Carbon.jpg", "price" => "Rp 25.000.000"],
                 ["name" => "Lenovo IdeaPad Flex 5", "description" => "Intel Core i5, 8GB RAM, 512GB SSD", "image" => "../foto/Lenovo IdeaPad Flex 5.webp", "price" => "Rp 15.000.000"],
-                ["name" => "Lenovo ThinkPad X1 Extreme", "description" => "Intel Core i9, 32GB RAM, 1TB SSD", "image" => "../foto/Lenovo ThinkPad X1 Extreme.jpg", "price" => "Rp 30.000.000"],
                 ["name" => "Lenovo Legion Slim 7i", "description" => "Intel Core i7, RTX 2060, 16GB RAM, 1TB SSD", "image" => "../foto/Lenovo Legion Slim 7i.jpg", "price" => "Rp 23.000.000"],
                 // HP
                 ["name" => "HP Spectre x360", "description" => "Intel Core i7, 16GB RAM, 512GB SSD", "image" => "../foto/HP Spectre x360.jpg", "price" => "Rp 22.000.000"],
@@ -99,7 +100,6 @@
                 ["name" => "Asus ROG Zephyrus G14", "description" => "AMD Ryzen 9, RTX 3060, 16GB RAM", "image" => "../foto/Asus ROG Zephyrus G14.png", "price" => "Rp 25.000.000"],
                 ["name" => "Asus TUF Dash F15", "description" => "Intel Core i7, RTX 3050 Ti, 16GB RAM", "image" => "../foto/Asus TUF Dash F15.png", "price" => "Rp 18.500.000"],
                 ["name" => "Asus VivoBook 15", "description" => "Intel Core i5, 8GB RAM, 256GB SSD", "image" => "../foto/Asus VivoBook 15.png", "price" => "Rp 11.000.000"],
-                ["name" => "Asus ROG Strix Scar 15", "description" => "Intel Core i9, RTX 3080, 32GB RAM", "image" => "../foto/Asus ROG Strix Scar 15.jpg", "price" => "Rp 40.000.000"],
                 ["name" => "Asus ExpertBook B9", "description" => "Intel Core i7, 16GB RAM, 1TB SSD", "image" => "../foto/Asus ExpertBook B9(2).png", "price" => "Rp 27.000.000"],
                 //Axioo
                 ["name" => "Axioo MyBook 14F", "description" => "Intel Core i5, 8GB RAM, 512GB SSD", "image" => "../foto/Axioo MyBook 14F.jpg", "price" => "Rp 10.000.000"],
@@ -156,11 +156,11 @@
                 <p>Laptop Spot</p>
             </div>
             <div class="footer-column">
-                <h3>Informasi</h3>
+                <h3>Information</h3>
                 <ul>
-                    <li><a href="#">Tentang Kami</a></li>
-                    <li><a href="../toko-offline/index.php" class="<?= ($_POST['page'] ?? '') == 'toko-offline' ? 'active' : '' ?>">Toko Offline</a></li>
-                    <li><a href="#">Testimino</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="../toko-offline/index.php" class="<?= ($_POST['page'] ?? '') == 'toko-offline' ? 'active' : '' ?>">Offline Store</a></li>
+                    <li><a href="#">Testimonials</a></li>
                 </ul>
             </div>
             <div class="footer-column">
@@ -172,14 +172,14 @@
                 </ul>
             </div>
             <div class="footer-column">
-                <h3>Helpfull</h3>
+                <h3>Helpful</h3>
                 <ul>
                     <li><a href="#">Teams & Exchange</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                 </ul>
             </div>
             <div class="footer-right">
-                <h3>Kontak</h3>
+                <h3>Contact</h3>
                 <p>+62 85283983634</p>
                 <p>mufti0480@gmail.com</p>
                 <div class="social-icons">
@@ -193,5 +193,6 @@
             <p>&copy; 2024 Copy Right by MZali</p>
         </div>
     </footer>
+
 </body>
 </html>
