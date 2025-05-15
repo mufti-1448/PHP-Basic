@@ -9,10 +9,10 @@ $image = isset($_GET['image']) ? htmlspecialchars($_GET['image']) : 'path-to-def
 $quantity = isset($_POST['quantity']) ? (int)$_POST['quantity'] : 1;
 $priceInt = filter_var($price, FILTER_SANITIZE_NUMBER_INT);
 $subtotal = $quantity * $priceInt;
-?>
+?> 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
