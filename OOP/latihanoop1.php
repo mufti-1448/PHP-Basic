@@ -1,0 +1,55 @@
+<?php
+
+$nama = "M. Khafidhin Mufti Ali";
+$kelas = "XI PPLG 2";
+$nilai1 = 80;
+$nilai2 = 100;
+$nilai3 = 75;
+$rata = nilaiRatarata ($nilai1, $nilai2, $nilai3);
+
+function nilaiRatarata ($nilai1, $nilai2, $nilai3) {
+    $rata = ($nilai1 * 0.3) + ($nilai2 * 0.3) + ($nilai3 * 0.4);
+    return $rata;
+}
+
+echo "Nama: $nama <br>";
+echo "Kelas: $kelas <br>";
+echo "Nilai 1: $nilai1 <br>";
+echo "Nilai 2: $nilai2 <br>";
+echo "Nilai 3: $nilai3 <br>";
+echo "Nilai Rata-Rata Anda adalah $rata" . "<br>";
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////YANG BENER////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+echo "Nilai1: " . nilai1(80) . ", Nilai2: " . nilai2(100) . ", Nilai3: " . nilai3(75) . " dan <br>";
+echo "Hasil Rata-Rata Anda adalah " . rerata(nilai1(80), nilai2(100), nilai3(75)) . "<br>";
+//function mengambil nilai
+function nilai1($nilai) { 
+    return $nilai;
+}
+function nilai2($nilai) { 
+    return $nilai;
+}
+function nilai3($nilai) { 
+    return $nilai;
+}
+function rerata($nilai1, $nilai2, $nilai3) {
+    return ($nilai1 * 0.3) + ($nilai2 * 0.3) + ($nilai3 * 0.4);
+} 
+function identitas($nama, $kelas) {
+    echo "Nama: $nama <br>";
+    echo "Kelas: $kelas <br>";
+    return $nama. $kelas;
+}
+//panggil function identitas
+identitas("M. Khafidhin Mufti Ali", "XI PPLG    2");
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+?>

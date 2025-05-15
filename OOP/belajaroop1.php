@@ -1,0 +1,52 @@
+<?php
+
+// function diikuti nama function
+// function nama_function() {
+//     // kode di dalam function
+//     echo "Halo, saya sedang belajar PHP";
+//     }
+
+// // panggil function
+// nama_function();
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// function hasilUji() {
+//     echo "ini hasil ujian" ;
+// }
+
+// hasilUji();
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+function hasilUji($value) {
+    if ($value < 51) {
+        echo "tidak lolos uji. Nilai" . $value . "<br>";
+    } else {
+        echo "lolos uji. Nilai" . $value . "<br>";
+    }
+}
+
+// hasilUji(45); //tidak lolos
+// hasilUji(78); //lolos
+// hasilUji(100); //lolos
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+$harga = 5000;
+$jumlah = 3;
+function totalBayar($harga, $jumlah) {
+    $total = $harga * $jumlah;
+    return $total;
+}
+echo "Barang yang dibeli adalah sabun dengan 
+harga " . $harga . "<br>";
+echo "Jumlah sabun yang di beli adalah " . 
+$jumlah . "<br>";
+echo "Total bayar: " .
+totalBayar($harga, $jumlah);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+?>
